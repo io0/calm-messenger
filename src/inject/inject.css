@@ -1,0 +1,6 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+div[aria-label="Chats"] {
+  visibility: hidden;
+}
