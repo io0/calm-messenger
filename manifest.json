@@ -9,7 +9,7 @@
     "128": "icons/icon128.png"
   },
   "default_locale": "en",
-  "permissions": ["tabs", "https://messenger.com/*"],
+  "permissions": ["https://messenger.com/*"],
   "content_scripts": [
     {
       "matches": ["https://messenger.com/*", "https://www.messenger.com/*"],
