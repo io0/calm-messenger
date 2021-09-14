@@ -2,5 +2,14 @@
  * Place your custom CSS styles here.
  **/
 div[aria-label="Chats"] {
-  visibility: hidden;
+  display: none;
+}
+[aria-label="New! Messenger App for Mac"] {
+  display: none;
+}
+body {
+  -moz-filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  filter: gray; /* IE6-9 */
+  filter: grayscale(100%);
 }
