@@ -14,3 +14,4 @@ chrome.extension.sendMessage({}, function (response) {
 });
 
 document.querySelector('link[rel*="icon"]').href = "//placehold.it/32/F00";
+document.title = "Messenger";
